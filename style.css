@@ -1,0 +1,47 @@
+body {
+    background-color: rgb(20, 20, 40);
+}
+
+* {
+    color:white;
+}
+
+#title {
+    color: black;
+    font-size: 50px;
+    text-align: center;
+    background-color: rgb(255, 123, 0);
+}
+
+.img {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width:500px;
+    height:auto;
+}
+
+.recipe-description {
+    color:white;
+    font-size: 24px;
+    text-align: center;
+}
+
+.recipe-heading {
+    color:black;
+    font-size: 40px;
+    font-weight: 800;
+    background-color: rgb(255, 157, 76)
+}
+
+.recipe-list {
+    color: rgb(255, 115, 0);
+    font-size: 24px;
+}
+
+.back-home {
+    color: white;
+    font-size:30px;
+    text-align: center;
+    background-color: rgb(255,123,0);
+}

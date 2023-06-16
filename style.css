@@ -9,16 +9,24 @@ body {
 #title {
     color: black;
     font-size: 50px;
-    text-align: center;
     background-color: rgb(255, 123, 0);
+    border-radius: 6px;
+    text-align: center;
+    border: 5px solid purple;
+    width: 500px;
+    margin: 0 auto;
+    padding:
 }
 
 .img {
     display:block;
+    margin-top: 50px;
+    margin-bottom: 50px;
     margin-left: auto;
     margin-right: auto;
     width:500px;
     height:auto;
+    border: 10px double red;
 }
 
 .recipe-description {
@@ -34,9 +42,22 @@ body {
     background-color: rgb(255, 157, 76)
 }
 
+.recipe-container .recipe-heading {
+    margin:5px;
+    padding: 5px;
+    width:fit-content;
+}
+
 .recipe-list {
     color: rgb(255, 115, 0);
     font-size: 24px;
+}
+
+.recipe-list li {
+    background-color:rgb(83, 0, 151);
+    padding: 5px;
+    margin: 5px;
+    border: 2px solid rgb(95, 86, 145)
 }
 
 .back-home {
@@ -44,4 +65,12 @@ body {
     font-size:30px;
     text-align: center;
     background-color: rgb(255,123,0);
+}
+
+.recipe-container {
+    background-color: rgb(255, 157, 76);
+    border: .3em solid rgb(95, 86, 145);
+    padding: 0px 10px;
+    width: 400px;
+    margin: 50px auto;
 }
